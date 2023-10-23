@@ -11,7 +11,8 @@
             "Start": "Start",
             "Ziel": "Ziel",
             "Bemerkung": "Bemerkungen",
-            "Meldung": "Maerker"            
+            "Meldung": "Maerker",
+            "test": "test" 
         },
         "cache": false
     },
