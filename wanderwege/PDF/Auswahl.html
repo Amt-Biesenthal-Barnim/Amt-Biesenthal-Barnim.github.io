@@ -9,29 +9,5 @@
 <button onclick="myFunction1()"><embed src="Übersicht_Wanderwege.pdf" width="800px" height="500px" /></button>
 <button onclick="myFunction2()"><embed src="Übersicht_Wanderwege_Luftbild.pdf" width="800px" height="500px" /></button>
 
-<p id="demo"></p>
-
-<script>
-function myFunction1() {
-  let text = "Wollen sie die normale Karte öffnen";
-  if (confirm(text) == true) {
-    location.href = "https://maerker.brandenburg.de/bb/biesenthal-barnim/";
-  } else {
-    text = "You canceled!";
-  }
-  document.getElementById("demo").innerHTML = text;
-}
-</script>
-<script>
-function myFunction2() {
-  let text = "Wollen sie die Luftbild Karte öffnen";
-  if (confirm(text) == true) {
-    location.href = "https://maerker.brandenburg.de/bb/biesenthal-barnim/";
-  } else {
-    text = "You canceled!";
-  }
-  document.getElementById("demo").innerHTML = text;
-}
-</script>
 </body>
 </html>
