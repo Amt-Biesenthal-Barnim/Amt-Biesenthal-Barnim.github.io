@@ -166,7 +166,11 @@
                         {
                             "name": "Geoportal Amt Biesenthal-Barnim",
                             "url": "https://www.geoportal-biesenthal-barnim.de/"
-                        }
+                        },                        
+                        {
+                            "name": "Fertige Übersichten",
+                            "url": "https://amt-biesenthal-barnim.github.io/wanderwege/PDF/Auswahl.html"
+                        }                        
                     ]
                 }
             }
