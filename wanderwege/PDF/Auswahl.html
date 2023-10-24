@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Window Object</h1>
+<h2>The confirm() Method</h2>
+
+<p>Click the button to see line-breaks in a confirm box.</p>
+
+<button onclick="myFunction1()">Übersicht</button>
+<button onclick="myFunction2()">Übersicht inkl. Luftbild</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction1() {
+  let text = "Wollen sie die normale Karte öffnen";
+  if (confirm(text) == true) {
+    href='https://maerker.brandenburg.de/bb/biesenthal-barnim/';
+  } else {
+    text = "You canceled!";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+<script>
+function myFunction2() {
+  let text = "Wollen sie die Luftbild Karte öffnen";
+  if (confirm(text) == true) {
+    href='https://maerker.brandenburg.de/bb/biesenthal-barnim/';
+  } else {
+    text = "You canceled!";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+</body>
+</html>
